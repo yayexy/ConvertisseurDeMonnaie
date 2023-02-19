@@ -8,7 +8,7 @@ std::string getUserConversionMoney()
 	std::cout << "What's the converted currency ? ";
 	std::getline(std::cin, currencyConverted);
 	
-	std::cout << currencyConverted << std::endl;
+	//std::cout << currencyConverted << std::endl;
 
 	int length = currencyConverted.length();
 	if (length > 0 && currencyConverted[length - 1] == ' ')		//allows us to verify if there are whitespaces at the end of the user's answer and to remove that

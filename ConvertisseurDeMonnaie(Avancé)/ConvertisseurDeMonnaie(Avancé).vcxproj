@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConvertisseurDeMonnaie(Avancé).cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="getuseramount.cpp" />
     <ClCompile Include="getuserconversionmoney.cpp" />
     <ClCompile Include="getusermoney.cpp" />

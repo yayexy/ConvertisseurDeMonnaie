@@ -10,9 +10,9 @@ int main()
 
 	do
 	{
-		getUserMoney();
-		getUserConversionMoney();
-		getUserAmount();
+		std::string userMoney = getUserMoney();
+		std::string userConversionMoney = getUserConversionMoney();
+		float userAmount = getUserAmount();
 		
 		std::cout << "Do you want to retry ? (y or n)";
 		std::cin >> run;

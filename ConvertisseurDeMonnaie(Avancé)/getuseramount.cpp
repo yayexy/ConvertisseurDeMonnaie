@@ -8,7 +8,7 @@ float getUserAmount()
 	std::cout << "What's the amount ? ";
 	std::cin >> userAmountCurrency;
 
-	std::cout << userAmountCurrency;
+	//std::cout << userAmountCurrency;
 
 	return 0;
 }
