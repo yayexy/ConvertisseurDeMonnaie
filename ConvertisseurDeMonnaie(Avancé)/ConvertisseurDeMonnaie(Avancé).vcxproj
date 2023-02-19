@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="amountconversion.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="getuseramount.cpp" />
     <ClCompile Include="getuserconversionmoney.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="retry.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="amountconversion.h" />
     <ClInclude Include="getuseramount.h" />
     <ClInclude Include="getuserconversionmoney.h" />
     <ClInclude Include="getusermoney.h" />

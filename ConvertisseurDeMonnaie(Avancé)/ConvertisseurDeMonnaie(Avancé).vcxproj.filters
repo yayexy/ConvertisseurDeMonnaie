@@ -30,6 +30,9 @@
     <ClCompile Include="retry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="amountconversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="getusermoney.h">
@@ -41,8 +44,11 @@
     <ClInclude Include="getuseramount.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="amountconversion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
     <ClInclude Include="retry.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

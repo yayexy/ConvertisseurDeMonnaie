@@ -1,6 +1,7 @@
 #include "getusermoney.h"
 #include "getuserconversionmoney.h"
 #include "getuseramount.h"
+#include "amountconversion.h"
 #include <iostream>
 #include <string>
 
@@ -14,6 +15,9 @@ int main()
 		std::string userConversionMoney = getUserConversionMoney();
 		float userAmount = getUserAmount();
 		
+		float amount = convertedAmount(userMoney, userConversionMoney, userAmount);
+
+		std::cout << amount << '\n';
 		std::cout << "Do you want to retry ? (y or n)";
 		std::cin >> run;
 

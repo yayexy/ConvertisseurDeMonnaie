@@ -16,7 +16,7 @@ std::string getUserConversionMoney()
 		currencyConverted.pop_back();
 	}
 
-	std::cout << currencyConverted << std::endl;
+	//std::cout << currencyConverted << std::endl;
 
 	return currencyConverted;
 }

@@ -10,5 +10,5 @@ float getUserAmount()
 
 	//std::cout << userAmountCurrency;
 
-	return 0;
+	return userAmountCurrency;
 }
