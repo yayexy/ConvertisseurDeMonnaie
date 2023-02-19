@@ -8,7 +8,7 @@
 int main()
 {
 	char run;
-
+	
 	do
 	{
 		std::string userMoney = getUserMoney();
