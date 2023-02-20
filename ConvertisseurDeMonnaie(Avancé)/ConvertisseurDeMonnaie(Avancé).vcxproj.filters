@@ -18,36 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="getusermoney.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="getuserconversionmoney.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="getuseramount.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="retry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="amountconversion.cpp">
+    <ClCompile Include="myfunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="getusermoney.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="getuserconversionmoney.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="getuseramount.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="amountconversion.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
     <ClInclude Include="retry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myfunctions.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
