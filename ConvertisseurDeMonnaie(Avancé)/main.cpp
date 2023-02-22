@@ -18,12 +18,12 @@ int main()
 		std::cout << amount << '\n';
 
 		//retry
-		std::cout << "Do you want to retry ? (y or n) ";
+		std::cout << "\x10 Do you want to retry ? (y or n) ";
 		std::cin >> run;
 
 	} while (run == 'y');
 	
-	std::cout << "Thanks for having been here !" << std::endl;
+	std::cout << "Thanks for having been here ! \x02" << std::endl;
 
 	return 0;
 }

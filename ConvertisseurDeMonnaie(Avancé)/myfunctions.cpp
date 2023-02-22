@@ -11,7 +11,7 @@ std::string getUserMoney()
 	//j'ai un probleme quand j'elenve les espaces en mettant euro avec des espaces devant, ca me recommence la question, alors que les espaces sont enlevés
 	do
 	{
-		std::cout << "What's the currency to convert ? ";
+		std::cout << "\x10 What's the currency to convert ? ";
 		std::getline(std::cin, currencyToConvert);
 
 		int length = currencyToConvert.length();
@@ -41,7 +41,7 @@ std::string getUserConversionMoney()
 
 	do
 	{
-		std::cout << "What's the converted currency ? ";
+		std::cout << "\x10 What's the converted currency ? ";
 		std::getline(std::cin, currencyConverted);
 
 		int length = currencyConverted.length();
@@ -79,7 +79,7 @@ float getUserAmount()
 		if there's an invalid argument, it can convert and show an error message
 		*/
 
-		std::cout << "What's the amount ? ";
+		std::cout << "\x10 What's the amount ? ";
 		std::getline(std::cin, input);
 		
 		int length = input.length();
@@ -94,7 +94,7 @@ float getUserAmount()
 		}
 		catch (std::invalid_argument& e)
 		{
-			std::cerr << "Error ! You haven't written a number (" << e.what() << ")." << std::endl;
+			std::cerr << "\x13 Error ! You haven't written a number (" << e.what() << ")." << std::endl;
 			continue;
 		}
 
