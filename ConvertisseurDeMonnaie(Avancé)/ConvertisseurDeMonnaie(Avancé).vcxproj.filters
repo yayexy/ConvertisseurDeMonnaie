@@ -18,18 +18,12 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="retry.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="myfunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myfunctions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="retry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -122,7 +122,7 @@ float convertedAmount(std::string getUserMoney, std::string getUserConversionMon
 		}
 		else
 		{
-			std::cout << "une erreur a été détecté" << '\n';
+			std::cout << "ERROR DETECTED" << '\n';
 		}
 	}
 
@@ -140,7 +140,7 @@ float convertedAmount(std::string getUserMoney, std::string getUserConversionMon
 		}
 		else
 		{
-			std::cout << "une erreur a été détecté" << '\n';
+			std::cout << "ERROR DETECTED" << '\n';
 		}
 	}
 
@@ -158,14 +158,25 @@ float convertedAmount(std::string getUserMoney, std::string getUserConversionMon
 		}
 		else
 		{
-			std::cout << "une erreur a été détecté" << '\n';
+			std::cout << "ERROR DETECTED" << '\n';
 		}
 	}
 
 	else
 	{
-		std::cout << "une erreur a été détecté !" << '\n';
+		std::cout << "ERROR DETECTED" << '\n';
 	}
 
 	return finalAmount;
+}
+
+
+char retry()
+{
+	char run{};
+
+	std::cout << "Do you want to retry ? (y or n) ";
+	std::cin >> run;
+
+	return run;
 }

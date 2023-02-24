@@ -129,11 +129,9 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="myfunctions.cpp" />
-    <ClCompile Include="retry.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myfunctions.h" />
-    <ClInclude Include="retry.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

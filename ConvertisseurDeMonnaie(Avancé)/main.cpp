@@ -4,8 +4,8 @@
 
 int main()
 {
-	char run;
-	
+	char tryAgain{};
+
 	do
 	{
 		//to do requests
@@ -18,12 +18,11 @@ int main()
 		std::cout << amount << '\n';
 
 		//retry
-		std::cout << "\x10 Do you want to retry ? (y or n) ";
-		std::cin >> run;
+		tryAgain = retry();
 
-	} while (run == 'y');
+	} while (tryAgain == 'y');
 	
-	std::cout << "Thanks for having been here ! \x02" << std::endl;
+	std::cout << "\nThanks for having been here ! \x02" << std::endl;
 
 	return 0;
 }
