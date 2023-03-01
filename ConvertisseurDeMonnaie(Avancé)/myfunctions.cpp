@@ -8,7 +8,6 @@ std::string getUserMoney()
 {
 	std::string currencyToConvert{};
 
-	//j'ai un probleme quand j'elenve les espaces en mettant euro avec des espaces devant, ca me recommence la question, alors que les espaces sont enlevés
 	do
 	{
 		std::cout << "\x10 What's the currency to convert ? ";
