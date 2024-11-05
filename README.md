@@ -15,3 +15,9 @@ Ce projet est un convertisseur de devises écrit en C++. Il permet à l'utilisat
    ```bash
    git clone https://github.com/votre-utilisateur/nom-du-repository.git
    cd nom-du-repository
+
+## Utilisation
+1 - Démarrage de l'application : L'application vous demandera de choisir la devise d'origine et la devise de conversion.<br>
+2 - Saisie du montant : Vous serez invité à entrer le montant à convertir.<br>
+3 - Affichage du montant converti : L'application affichera le montant converti.<br>
+4 - Réessayer ou quitter : Vous pouvez choisir de convertir un autre montant ou de quitter l'application.<br>
